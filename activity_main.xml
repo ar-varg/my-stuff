@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="79dp"
+        android:text="Soccer Streamz"
+        android:textColor="#EDE9E9"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F4F2F2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName" />
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="240dp"
+        android:layout_height="76dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="LOG IN"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="857dp" />
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="240dp"
+        android:layout_height="76dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="SIGN UP"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="983dp" />
+
+    <Button
+        android:id="@+id/Button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="More Leagues"
+        tools:layout_editor_absoluteX="419dp"
+        tools:layout_editor_absoluteY="1052dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="185dp"
+        android:layout_height="158dp"
+        app:srcCompat="@drawable/epl_logo"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="164dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/italian_logo"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="172dp"
+        android:layout_height="246dp"
+        app:srcCompat="@drawable/german_logo"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="166dp"
+        android:layout_height="191dp"
+        app:srcCompat="@drawable/french_logo"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="201dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/laliga_logo"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
